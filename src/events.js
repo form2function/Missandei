@@ -76,10 +76,10 @@ exports.listen = function listen (client)
          ${client.guilds.cache.size.toLocaleString()} guilds.`);
 
          client.user.setPresence({
-            "activity": {
-               "name": "ritabot.gg | !tr help",
-               "type": "PLAYING"
-            },
+//            "activity": {
+//               "name": "You | !tr help",
+//               "type": "LISTENING"
+//            },
             "status": "online"
          });
 
