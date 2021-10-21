@@ -43,8 +43,8 @@ function helpMessage (config, param)
    const long = config.translateCmd;
 
    const info =
-   `**For a full command list and usage examples,**\n` +
-   `**please review our [documentation](<https://docs.ritabot.gg/rita-docs>)**\n\n` +
+   // `**For a full command list and usage examples,**\n` +
+   // `**please review our [documentation](<https://docs.ritabot.gg/rita-docs>)**\n\n` +
 
    "```md\n" +
    `# For a full list of commands, enter the following:\n` +
