@@ -11,8 +11,7 @@ const time = {
    "long": 60000,
    "short": 5000
 };
-// const helpFooter = `**For more help join our official [support server](<https://discord.gg/hXaedzCQ8d>)**\n\n`;
-const helpFooter = `Dracarys.\n\n`;
+const helpFooter = `**For more help join our official [support server](<https://discord.gg/hXaedzCQ8d>)**\n\n`;
 
 // -------------
 // Help Section
@@ -43,8 +42,8 @@ function helpMessage (config, param)
    const long = config.translateCmd;
 
    const info =
-   // `**For a full command list and usage examples,**\n` +
-   // `**please review our [documentation](<https://docs.ritabot.gg/rita-docs>)**\n\n` +
+   `**For a full command list and usage examples,**\n` +
+   `**please review our [documentation](<https://docs.ritabot.gg/rita-docs>)**\n\n` +
 
    "```md\n" +
    `# For a full list of commands, enter the following:\n` +
